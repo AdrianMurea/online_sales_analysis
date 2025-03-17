@@ -12,12 +12,6 @@ manager.add_product(Product("Mouse", 150, 20))
 manager.add_product(Product("Tablet", 1000, 10))
 manager.add_product(Product("USB Cable", 10.20, 10))
 
-print()
-print("INVENTORY / Products list: \n-----------------")
-manager.display_products()
-
-print(f"\n\tTotal list products value: {manager.total_value_products():.2f}")
-
 
 print()
 cart = Cart()
