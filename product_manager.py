@@ -1,4 +1,6 @@
 
+from product import Product
+
 class ProductManager:
     def __init__(self):
         self.product_list = []
@@ -15,3 +17,8 @@ class ProductManager:
     
     def total_value_products(self):
         return sum(item.price*item.quantity for item in self.product_list)
+    
+    def products_removal(self, name):
+        for product in self.product_list:
+            if product.name == name:
+                self.product_list.remove(product)
