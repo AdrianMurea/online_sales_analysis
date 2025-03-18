@@ -7,18 +7,18 @@ Trebuie să permită:
 
 Au fost implementate clasele Product, ProductManager si Cart
 
-##Clasa Product include
+## Clasa Product include
 	- metoda pentru afisarea datelor despre produs (nume, pret, cantitate)
 	
 	- metoda pentru actualizarea cantitatii
 
-##Clasa ProductManager include:
+## Clasa ProductManager include:
 	- metoda pentru adaugarea produselor
 	- metoda pentru afisarea produselor
 	- metoda pentru calcularea totala a valorii produselor din inventar
 	- metoda pentru stergerea dupa nume a produselor
 
-##Clasa Cart include:
+## Clasa Cart include:
 	- metoda pentru adaugare produse in cos
 	- metoda ce calculeaza valoarea totala a cosului (suma de plata)
 	- metoda pentru afisarea produselor din cos
